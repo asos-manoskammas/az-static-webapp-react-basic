@@ -1,4 +1,14 @@
 {
+    "routes": [
+        {
+            "route": "/.auth/login/twitter",
+            "statusCode": 404
+        },
+        {
+            "route": "/.auth/login/github",
+            "statusCode": 404
+        }
+    ],
     "networking": {
         "allowedIpRanges": [
             "209.201.86.43/32",
@@ -6,7 +16,7 @@
             "88.84.158.96/27",
             "45.156.80.0/22"
         ]
-      },
+    },
     "navigationFallback": {
         "rewrite": "/index.html"
     }
